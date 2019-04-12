@@ -12,8 +12,8 @@
 
 body{
 
-	background-color: rgb(218,57,31) ;
-	color:rgba(100,100,100,1);
+	background-color: rgb(216,92,54) ;
+	color:white;
 	font-family: 'Oswald',sans-serif
 
 }
@@ -45,28 +45,13 @@ h2{
 h3{
 	font-size:1.5rem;
 	letter-spacing:0.1em;
-	color:rgba(0,0,0,0.9);
+	color: white;
 	text-align:center;
-	padding:1rem 0;
-	font-family: 'Raleway',sans-serif;
-	.container {
-    background-color: #FFA500;
-    padding: 10px;
-}
+	padding:0.5em;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 40px
 
-.background {
-    width: 200px;
-    height: 100px;
-    background-color: #FFFFFF;
-    padding: 10px;
-    margin: 0px 0px 10px 0px;
-}
 
-.trans {
-    opacity: 0.5;
-}
-
-.container{}
 }
 
 a{
