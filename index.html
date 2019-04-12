@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Díaz&Morales</title>
+    <meta name="title" content="Díaz&Morales">
+    <link rel="icon" type="image/png" href="media/favicon.png" />
+    <!-- Metadatos Genéricos -->
+    <meta name="description" content="Portafolio qliao pal ramo qliao">
+    <meta name="image" content="*cambiar por una URL de la imagen en línea*">
+    <!-- Metadatos para Schema.org for Google -->
+    <meta itemprop="name" content="Díaz&Morales">
+    <meta itemprop="description" content="Portafolio qliao pal ramo qliao">
+    <meta itemprop="image" content="*cambiar por una URL de la imagen en línea*">
+    <!-- Metadatos para Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Díaz&Morales">
+    <meta name="twitter:description" content="Portafolio qliao pal ramo qliao">
+    <meta name="twitter:image" content="*cambiar por una URL de la imagen en línea*">
+    <!-- Metadatos para Open Graph general (Facebook y Pinterest) -->
+    <meta name="og:title" content="Díaz&Morales">
+    <meta name="og:description" content="Portafolio qliao pal ramo qliao">
+    <meta name="og:image" content="*cambiar por una URL de la imagen en línea*">
+    <meta name="og:locale" content="es_CL">
+    <meta name="og:type" content="website">
+    <!-- Ahora vinculamos el estilo -->
+    <link rel="stylesheet" href="estilo.css" type="text/css">
+</head>
+
+<body>
+    <div id="contenido">
+        <header>
+            <h1>Díaz<strong style="color: #936;">&</strong>Morales</h1>
+
+
+
+            <h2>Aquí te dejamos nuestros mejores trabajos ;)</h2>
+                  <div class="container">
+            <div class="background trans"></div>
+            </div>
+
+        </header>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="media/video.mp4" type="video/mp4">
+            <source src="media/video.ogg" type="vid
+            eo/ogg"> cambiar esta wea pls
+        </video>
+
+        <h3>¿Quiénes somos?</h3>
+        <div id="somos">
+
+            <div class="dupla primera">
+                <h4>Andrea Díaz</h4>
+                <h5>Estudiante de diseño e Ilustradora</h5>
+                <p>Manejo de Photoshop, Ilustrator, Premiere, After effects, entre otros.</p>
+                <address><a href="mailto:abdiaz1@uc.cl">abdiaz1@uc.cl</a></address>
+            </div>
+
+
+            <div class="dupla segunda">
+                <h4>Valentina Morales</h4>
+                <h5>Estudiante de diseño</h5>
+                <p>Con manejo en textil, ilustrator, photoshop, design sketching
+                </p>
+                <address><a href="mailto:vcmorales@uc.cl">vcmorales@uc.cl</a></address>
+            </div>
+
+            <hr />
+        </div><!-- acá cerramos el div id="somos"-->
+
+        <h3>PORTAFOLIO</h3>
+
+        <div id="portafolio">
+
+            <!--acá se colocan y organizan las cosas con programación-->
+
+        </div><!-- acá cerramos el div id="portafolio"-->
+
+        <footer>
+            <p>HECHO CON ODIO, ALEVOSIA Y ENZAÑAMIENTO · 2019</p>
+        </footer>
+
+    </div><!-- acá abajo cerramos el div id="contenido"-->
+
+    <!-- Lo que sigue SI es PROGRAMACIÓN -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
+    <script>
+        // ESTO SIRVE PARA ARREGLAR CADA ÍTEM DEL PORTAFOLIO COMO ALBAÑILERÍA (MASONRY)
+        window.onload = function() {
+            var container = document.querySelector('#portafolio');
+            var msnry = new Masonry(portafolio, {
+                itemSelector: '.item'
+            });
+        };
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="portafolio.js"></script>
+</body>
+
+</html>
