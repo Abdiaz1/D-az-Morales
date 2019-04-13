@@ -34,8 +34,9 @@ h1{
 
 }
 
+
 h2{
-	font-size:2rem;
+	font-size:40px;
 	letter-spacing:0.1em;
 	color:#ffff;
 	text-align:center;
@@ -43,7 +44,6 @@ h2{
 	font-weight: 300
 
 }
-
 
 h3{
 	font-size:1.5rem;
@@ -206,10 +206,20 @@ footer p{
 
 @media screen and (orientation: portrait){
 
+h1{
+	font-size: 60px
+}
+
+h2{
+	font-size: 25px
+}
+h3{
+	font-size: 20px
+}
 	.dupla{
 		width:46%;
 		padding:2%;
-		float:left;
+		float:center;
 	}
 
 }
