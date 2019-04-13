@@ -1,21 +1,21 @@
 // PRIMERO CREAMOS UNA VARIABLE QUE CONTIENE TODOS LOS DATOS DE TUS TRABAJOS
 var trabajos = [
 {
-    figure: "media/foto-01.jpg",
-    title: "Yo que sé",
-    about: "Un proyecto muy fome pero que nos sacmos buena nota ;) wink wink",
+    figure: "media/1día.jpeg",
+    title: "1Día",
+    about: "Trabajo realizado para 1Día Tablas, Rediseño de la marca y sus productos #Valentina Morales",
 }, {
-    figure: "media/foto-02.jpg",
-    title: "Lorem ipsum 02",
-    about: "Nulla pretium non sapien eget fermentum",
+    figure: "media/Luminaria.jpeg",
+    title: "Posibilidades del Yeso",
+    about: "Luminaria construida a partir de un molde parámetrico. #Valentina Morales ",
 }, {
-    figure: "media/foto-03.jpg",
-    title: "Lorem ipsum 03",
-    about: "Nulla pretium non sapien eget fermentum",
+    figure: "media/KIPIT.jpeg",
+    title: "Kipit",
+    about: "Dispositivo que permite mantener la cadena de frío de los alimentos después de corte eléctrico. N° Solicitud Patente Modelo de Utilidad:3397-2017 #Andrea Díaz y Valentina Morales  ",
 }, {
-    figure: "media/foto-04.jpg",
-    title: "Lorem ipsum 04",
-    about: "Nulla pretium non sapien eget fermentum",
+    figure: "media/MUTU.jpeg",
+    title: "Mutu",
+    about: "Diseño de Emergencia dirigido a niños en situación de albergues por catástrofe.Encargo CONAF #Andrea Díaz y Valentina Morales",
 }, {
     figure: "media/foto-05.jpg",
     title: "Lorem ipsum 05",
@@ -25,8 +25,8 @@ var trabajos = [
     title: "Lorem ipsum 06",
     about: "Nulla pretium non sapien eget fermentum",
 }, {
-    figure: "media/foto-07.jpg",
-    title: "Lorem ipsum 07",
+    figure: "media/Libertad 720p.mp4",
+    title: "Freedom",
     about: "Nulla pretium non sapien eget fermentum",
 }
 ]
@@ -35,5 +35,7 @@ $.each(trabajos, function(i, val) {
     var uno = '<figure><img src="' + trabajos[i].figure + '"/></figure>';
     var dos = '<h4>' + trabajos[i].title + '</h4>';
     var tres = '<p>' + trabajos[i].about + '</p>';
+    
+
     $('#portafolio').append('<div class="item">' + uno + dos + tres + '</div>')
 });

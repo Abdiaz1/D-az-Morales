@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Space+Mono:400,400i,700');
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700');
 
 
@@ -12,9 +12,10 @@
 
 body{
 
-	background-color: rgb(216,92,54) ;
+	background-color: rgb(218,57,31) ;
 	color:white;
-	font-family: 'Oswald',sans-serif
+	font-family: 'Raleway',sans-serif;
+
 
 }
 
@@ -39,6 +40,8 @@ h2{
 	color:#ffff;
 	text-align:center;
 	font-family: 'Raleway',sans-serif;
+	font-weight: 300
+
 }
 
 
@@ -95,45 +98,45 @@ video{
 	width:46%;
 	padding:2%;
 	float:left;
-	background-color:red;
+	background-color:white;
 
 	}
 
 .primera{
 	min-height:400px;
 	text-align:left;
-	background-color:rgba(225, 225, 225, 1.00);
+	background-color:rgb(255,255,255);
 	background-image:url('media/foto1.jpeg');
 	background-position:top right;
 	background-repeat:no-repeat;
 	background-size:auto 100%;
 
 }
-.primera h4{padding: 2% 40% 1% 2%;}
+.primera h4{padding: 2% 45% 2% 2%;color: black;font-family: 'Opensed Sans Condensed',sans-serif; font-size: 23px}
 
-.primera h5{padding: 1% 40% 2% 2%; margin-bottom:5em; letter-spacing:0.1em;}
+.primera h5{padding: 2% 45% 2% 2%; margin-bottom:0em; letter-spacing:0em;color: black;font-size: 18px;font-weight: 400}
 
-.primera p{padding: 2% 40% 2% 2%;}
+.primera p{padding: 2% 45% 2% 2%;color:black; font-size: 18px;font-weight: 300}
 
-.primera address{padding: 2% 40% 2% 2%; font-size:0.9em; font-style:normal;}
+.primera address{padding: 2% 45% 2% 2%; font-size:0.9em; font-style:normal;color:rgb(218,57,31)}
 
 .segunda{
 	min-height:400px;
 	text-align:right;
-	background-color:rgba(235, 235, 235, 1.00);
+	background-color:rgb(0,0,0);
 	background-image:url('media/foto2.jpeg');
 	background-position:top left;
 	background-repeat:no-repeat;
 	background-size:auto 100%;
 }
 
-.segunda h4{padding: 2% 2% 1% 40%;}
+.segunda h4{padding: 2% 2% 2% 40%;color: white;font-family: 'Opensed Sans Condensed',sans-serif; font-size: 23px}
 
-.segunda h5{padding: 1% 2% 2% 40%; margin-bottom:5em; letter-spacing:0.1em;}
+.segunda h5{padding: 2% 2% 2% 40%; margin-bottom:0em; letter-spacing:0em;color: white;font-size: 18px;font-weight: 400}
 
-.segunda p{padding: 2% 2% 2% 40%;}
+.segunda p{padding: 2% 2% 2% 40%;color:white; font-size: 18px;font-weight: 300}
 
-.segunda address{padding: 2% 2% 2% 40%; font-size:0.9em; font-style:normal;}
+.segunda address{padding: 2% 2% 2% 40%;font-size:0.9em; font-style:normal;color:rgb(218,57,31)}
 
 #somos hr{
 	clear:both;
@@ -204,7 +207,7 @@ footer p{
 @media screen and (orientation: portrait){
 
 	.dupla{
-		width:96%;
+		width:46%;
 		padding:2%;
 		float:left;
 	}
