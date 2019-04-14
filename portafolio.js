@@ -3,43 +3,43 @@ var trabajos = [
 {
     figure: "media/1día.jpeg",
     title: "1Día",
-    about: "Trabajo realizado para 1Día Tablas, Rediseño de la marca y sus productos #Valentina Morales",
+    about: "Trabajo realizado para 1Día Tablas, Rediseño de la marca y sus productos #ValentinaMorales.",
 }, {
     figure: "media/Luminaria.jpeg",
     title: "Posibilidades del Yeso",
-    about: "Luminaria construida a partir de un molde parámetrico. #Valentina Morales ",
+    about: "Luminaria construida a partir de una matríz parámetrica, explota la capacidad del yeso para adoptar la forma de su molde #ValentinaMorales. ",
 }, {
     figure: "media/KIPIT.jpeg",
     title: "Kipit",
-    about: "Dispositivo que permite mantener la cadena de frío de los alimentos después de corte eléctrico. N° Solicitud Patente Modelo de Utilidad:3397-2017 #Andrea Díaz y Valentina Morales  ",
+    about: "Dispositivo que permite mantener la cadena de frío de los alimentos después de corte eléctrico. N° Solicitud Patente Modelo de Utilidad:3397-2017 #AndreaDíaz #ValentinaMorales.  ",
 }, {
     figure: "media/MUTU.jpeg",
     title: "Mutu",
-    about: "Diseño de Emergencia dirigido a niños en situación de albergues por catástrofe.Encargo CONAF #Andrea Díaz y Valentina Morales",
+    about: "Diseño de Emergencia dirigido a niños en situación de albergue por catástrofe. Encargo CONAF #AndreaDíaz #ValentinaMorales.",
 }, {
-    figure: "media/foto-05.jpg",
-    title: "Lorem ipsum 05",
-    about: "Nulla pretium non sapien eget fermentum",
+    figure: "media/contigo.jpg",
+    title: "Contigo",
+    about: "Trabajo en conjunto con artesanas de Melipeuco #AndreaDíaz.",
 }, {
-    figure: "media/foto-06.jpg",
-    title: "Lorem ipsum 06",
-    about: "Nulla pretium non sapien eget fermentum",
+    figure: "media/iluminacion.jpg",
+    title: "Luminaria de estaño",
+    about: "Construcción fabricada en negativo de esféras #AndreaDíaz.",
 }, {
-    figure: "media/Libertad 720p.mp4",
+    figure: "media/libertad.mp4",
     title: "Freedom",
-    about: "Nulla pretium non sapien eget fermentum",
+    about: "Animación frame por frame, encargo Audiovisual #AndreaDíaz.",
 }, {
-    figure: "media/foto-06.jpg",
-    title: "Lorem ipsum 06",
-    about: "Nulla pretium non sapien eget fermentum",
+    figure: "media/ilustracion.jpg",
+    title: "Ilustración grafito",
+    about: "Ilustración sobre un extracto de Edgar Allan Poe #AndreaDíaz.",
 }, {
-    figure: "media/foto-06.jpg",
-    title: "Lorem ipsum 06",
-    about: "Nulla pretium non sapien eget fermentum",
+    figure: "media/4NOKS.png",
+    title: "Nuevos Noks de Maggi",
+    about: "Propuesta de diseño para Maggi, snack de arroz inflado sazonado y packaing #ValentinaMorales ",
 }, {
-    figure: "media/foto-06.jpg",
-    title: "Lorem ipsum 06",
-    about: "Nulla pretium non sapien eget fermentum",
+    figure: "media/jeje.jpg",
+    title: "platónico de valecita",
+    about: "lo cambio mañana",
 
 }
 ]
