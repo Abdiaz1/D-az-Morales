@@ -3,15 +3,15 @@ var trabajos = [
 {
     figure: "media/1día.jpeg",
     title: "1Día",
-    about: "Trabajo realizado para 1Día Tablas, Rediseño de la marca y sus productos #ValentinaMorales.",
+    about: "Trabajo realizado para 1Día Tablas, Rediseño de la marca y sus productos. #ValentinaMorales.",
 }, {
     figure: "media/Luminaria.jpeg",
     title: "Posibilidades del Yeso",
-    about: "Luminaria construida a partir de una matríz parámetrica, explota la capacidad del yeso para adoptar la forma de su molde #ValentinaMorales. ",
+    about: "Luminaria construida a partir de una matríz paramétrica, explota la capacidad del yeso para adoptar la forma de su molde. #ValentinaMorales. ",
 }, {
     figure: "media/KIPIT.jpeg",
     title: "Kipit",
-    about: "Dispositivo que permite mantener la cadena de frío de los alimentos después de corte eléctrico. N° Solicitud Patente Modelo de Utilidad:3397-2017 #AndreaDíaz #ValentinaMorales.  ",
+    about: "Dispositivo que permite mantener la cadena de frío de los alimentos después de corte eléctrico. N° Solicitud Patente Modelo de Utilidad:3397-2017. #AndreaDíaz #ValentinaMorales.  ",
 }, {
     figure: "media/MUTU.jpeg",
     title: "Mutu",
@@ -19,23 +19,23 @@ var trabajos = [
 }, {
     figure: "media/contigo.jpg",
     title: "Contigo",
-    about: "Trabajo en conjunto con artesanas de Melipeuco #AndreaDíaz.",
+    about: "Trabajo en conjunto con artesanas de Melipeuco. Creación de producto y marca. #AndreaDíaz.",
 }, {
-    figure: "media/iluminacion.jpg",
+    figure: "media/Iluminación estaño.jpg",
     title: "Luminaria de estaño",
-    about: "Construcción fabricada en negativo de esféras #AndreaDíaz.",
+    about: "Construcción fabricada en negativo de esféras. #AndreaDíaz.",
 }, {
-    figure: "media/libertad.mp4",
+    figure: "media/Freedom.jpg",
     title: "Freedom",
-    about: "Animación frame por frame, encargo Audiovisual #AndreaDíaz.",
+    about: "Animación 2D frame por frame, encargo Audiovisual Procesos de Producción. #AndreaDíaz.",
 }, {
-    figure: "media/ilustracion.jpg",
+    figure: "media/Ilustracion grafito.jpg",
     title: "Ilustración grafito",
-    about: "Ilustración sobre un extracto de Edgar Allan Poe #AndreaDíaz.",
+    about: "Ilustración sobre un extracto del cuento 'No apuestes tu cabeza al diablo' de Edgar Allan Poe. #AndreaDíaz.",
 }, {
     figure: "media/4NOKS.png",
     title: "Nuevos Noks de Maggi",
-    about: "Propuesta de diseño para Maggi, snack de arroz inflado sazonado y packaing #ValentinaMorales ",
+    about: "Propuesta de diseño para Maggi, snack de arroz inflado sazonado y packaging. #ValentinaMorales ",
 }, {
     figure: "media/jeje.jpg",
     title: "platónico de valecita",
