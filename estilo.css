@@ -229,7 +229,7 @@ h3{
 		float:center;
 	}
 
-.primera h4,h5,p,address{background-color: rgba(218,57,31,0.5)}
+.primera h4,h5,p,address{background-color: rgba(117, 117, 117, 0.5)}
 
 .primera h4{padding: 2% 45% 2% 2%;color: white;font-family: 'Opensed Sans Condensed',sans-serif; font-size: 20px}
 
@@ -239,7 +239,7 @@ h3{
 
 .primera address{padding: 2% 45% 2% 2%; font-size:0.9em; font-style:normal;color:#ff7539)}
 
-.segunda h4,h5,p,address{background-color: rgba(218,57,31,0.5)}
+.segunda h4,h5,p,address{background-color: rgba(117, 117, 117, 0.5)}
 
 .segunda h4{padding: 2% 2% 2% 40%;color: white;font-family: 'Opensed Sans Condensed',sans-serif; font-size: 20px}
 
