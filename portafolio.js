@@ -28,6 +28,22 @@ var trabajos = [
     figure: "media/Libertad 720p.mp4",
     title: "Freedom",
     about: "Nulla pretium non sapien eget fermentum",
+  }, {
+      figure: "media/foto-06.jpg",
+      title: "Lorem ipsum 06",
+      about: "Nulla pretium non sapien eget fermentum",
+    }, {
+        figure: "media/foto-06.jpg",
+        title: "Lorem ipsum 06",
+        about: "Nulla pretium non sapien eget fermentum",
+      }, {
+          figure: "media/foto-06.jpg",
+          title: "Lorem ipsum 06",
+          about: "Nulla pretium non sapien eget fermentum",
+        }, {
+            figure: "media/foto-06.jpg",
+            title: "Lorem ipsum 06",
+            about: "Nulla pretium non sapien eget fermentum",
 }
 ]
 // LUEGO CREAMOS PARTES DEL SITIO CON CADA DATO CONTENIDO EN LA VARIABLE
@@ -35,7 +51,7 @@ $.each(trabajos, function(i, val) {
     var uno = '<figure><img src="' + trabajos[i].figure + '"/></figure>';
     var dos = '<h4>' + trabajos[i].title + '</h4>';
     var tres = '<p>' + trabajos[i].about + '</p>';
-    
+
 
     $('#portafolio').append('<div class="item">' + uno + dos + tres + '</div>')
 });
