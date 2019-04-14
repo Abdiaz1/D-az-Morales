@@ -189,12 +189,14 @@ video{
 	font-size:1em;
 	letter-spacing:0.025em;
 	margin:5% 5% 3% 5%;
+	color: white
 }
 
 .item p{
 	font-size:0.875em;
 	letter-spacing:0.05em;
 	margin:2% 5% 6% 5%;
+	color: white 
 }
 
 footer{

@@ -28,22 +28,19 @@ var trabajos = [
     figure: "media/Libertad 720p.mp4",
     title: "Freedom",
     about: "Nulla pretium non sapien eget fermentum",
-  }, {
-      figure: "media/foto-06.jpg",
-      title: "Lorem ipsum 06",
-      about: "Nulla pretium non sapien eget fermentum",
-    }, {
-        figure: "media/foto-06.jpg",
-        title: "Lorem ipsum 06",
-        about: "Nulla pretium non sapien eget fermentum",
-      }, {
-          figure: "media/foto-06.jpg",
-          title: "Lorem ipsum 06",
-          about: "Nulla pretium non sapien eget fermentum",
-        }, {
-            figure: "media/foto-06.jpg",
-            title: "Lorem ipsum 06",
-            about: "Nulla pretium non sapien eget fermentum",
+}, {
+    figure: "media/foto-06.jpg",
+    title: "Lorem ipsum 06",
+    about: "Nulla pretium non sapien eget fermentum",
+}, {
+    figure: "media/foto-06.jpg",
+    title: "Lorem ipsum 06",
+    about: "Nulla pretium non sapien eget fermentum",
+}, {
+    figure: "media/foto-06.jpg",
+    title: "Lorem ipsum 06",
+    about: "Nulla pretium non sapien eget fermentum",
+
 }
 ]
 // LUEGO CREAMOS PARTES DEL SITIO CON CADA DATO CONTENIDO EN LA VARIABLE

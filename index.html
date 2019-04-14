@@ -31,81 +31,61 @@
 </head>
 
 <body>
-    <div id="contenido">
-        <header>
-            <h1>Díaz<strong style="color: rgb(218,57,31);">&</strong>Morales</h1>
-
-
-
-
-            <div class="container">
-                <h2>Aquí te dejamos nuestros mejores trabajos ;)</h2>
-                        </div>
-
-        </header>
-        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-            <source src="media/video.mp4" type="video/mp4">
-            <source src="media/video.ogg" type="vid
-            eo/ogg"> cambiar esta wea pls
+  <div id="contenido">
+    <header>
+      <h1>Díaz<strong style="color: rgb(218,57,31);">&</strong>Morales</h1>
+      <div class="container">
+        <h2>Aquí te dejamos nuestros mejores trabajos ;)</h2>
+      </div>
+    </header>
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+      <source src="media/video.mp4" type="video/mp4">
+        <source src="media/video.ogg" type="video/ogg"><!---> cambiar esta wea pls-->
         </video>
-
         <h3>¿QUIÉNES SOMOS?</h3>
-
         <div id="somos" class="row">
-
-      <div class="col-lg-2"></div>
-      <div class="col-lg-3">
-          <div class="dupla primera">
+          <div class="col-lg-2"></div>
+          <div class="col-lg-3">
+            <div class="dupla primera">
               <h4>Valentina Morales R.</h4>
               <h5>Estudiante de Diseño UC</h5>
               <p>Manejo de Photoshop, Illustrator, Design Sketching, Rhino, conocimiento en área Textil e Industrial</p>
               <address><a href="mailto:vcmorales@uc.cl"><strong style="color: #ff7539);">Contáctame a: vcmorales@uc.cl</strong></a></address>
-          </div>
-      </div>
-      <div class="col-lg-2"></div>
-      <div class="col-lg-3">
+            </div>
+        </div>
+        <div class="col-lg-2"></div>
+        <div class="col-lg-3">
           <div class="dupla1 segunda">
               <h4>Andrea Díaz V.</h4>
               <h5>Estudiante de Diseño UC</h5>
               <p>Manejo de Photoshop,
                 Illustrator,
-                After Effects, Premiere, conocimiento en área Audiovisual e Ilustración
-              </p>
+                After Effects, Premiere, conocimiento en área Audiovisual e Ilustración</p>
               <address><a href="mailto:abdiaz1@uc.cl"><strong style="color:#ff7539);">Contáctame a: abdiaz1@uc.cl</strong></a></address>
           </div>
-      </div>
-      <div class="col-lg-2"></div>
-      <hr />
-  </div><!-- acá cerramos el div id="somos"-->
-  
-        <h3>PORTAFOLIO</h3>
-
-        <div id="portafolio">
-
-            <!--acá se colocan y organizan las cosas con programación-->
-
-        </div><!-- acá cerramos el div id="portafolio"-->
-
-        <footer>
-            <p>HECHO CON ODIO, ALEVOSIA Y ENZAÑAMIENTO · 2019</p>
-        </footer>
-
+        </div>
+        <div class="col-lg-2"></div>
+        <hr />
+      </div><!-- acá cerramos el div id="somos"-->
+      <h3>PORTAFOLIO</h3>
+      <div id="portafolio"><!--acá se colocan y organizan las cosas con programación-->
+      </div><!-- acá cerramos el div id="portafolio"-->
+      <footer>
+        <p>HECHO CON ODIO, ALEVOSIA Y ENZAÑAMIENTO · 2019</p>
+      </footer>
     </div><!-- acá abajo cerramos el div id="contenido"-->
-
     <!-- Lo que sigue SI es PROGRAMACIÓN -->
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
     <script>
-        // ESTO SIRVE PARA ARREGLAR CADA ÍTEM DEL PORTAFOLIO COMO ALBAÑILERÍA (MASONRY)
-        window.onload = function() {
-            var container = document.querySelector('#portafolio');
-            var msnry = new Masonry(portafolio, {
-                itemSelector: '.item'
-            });
-        };
-    </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="portafolio.js"></script>
+    // ESTO SIRVE PARA ARREGLAR CADA ÍTEM DEL PORTAFOLIO COMO ALBAÑILERÍA (MASONRY)
+    window.onload = function() {
+      var container = document.querySelector('#portafolio');
+      var msnry = new Masonry(portafolio, {
+        itemSelector: '.item'
+      });
+    };
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="portafolio.js"></script>
 </body>
-
 </html>
