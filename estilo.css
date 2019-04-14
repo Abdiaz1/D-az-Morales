@@ -213,7 +213,7 @@ h1{
 }
 
 h2{
-	font-size: 25px
+	font-size: 20px
 }
 h3{
 	font-size: 20px
@@ -226,7 +226,7 @@ h3{
 
 .primera h4,h5,p,address{background-color: rgba(218,57,31,0.5)}
 
-.primera h4{padding: 2% 45% 2% 2%;color: black;font-family: 'Opensed Sans Condensed',sans-serif; font-size: 20px}
+.primera h4{padding: 2% 45% 2% 2%;color: black;font-family: 'Opensed Sans Condensed',sans-serif; font-size: 18px}
 
 .primera h5{padding: 2% 45% 2% 2%; margin-bottom:0em; letter-spacing:0em;color: black;font-size: 12px;font-weight: 500}
 
