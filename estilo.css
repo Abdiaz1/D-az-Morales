@@ -34,12 +34,12 @@ h2{
 h3{
 	font-size:1.5rem;
 	letter-spacing:0.1em;
-	color: black;
+	color: white;
 	text-align:center;
 	padding:0.5em;
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 40px;
-	background: linear-gradient(to right, white 0%, rgb(218,57,31) 50%, white 100%);
+	text-shadow: -5px -5px 5px rgb(0,0,0,0.5);
 	margin-bottom: 1%
 }
 a{
