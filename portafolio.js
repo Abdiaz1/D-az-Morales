@@ -35,11 +35,11 @@ var trabajos = [
 }, {
     figure: "media/4NOKS.png",
     title: "Nuevos Noks de Maggi",
-    about: "Propuesta de diseño para Maggi, snack de arroz inflado sazonado y packaging. #ValentinaMorales ",
+    about: "Propuesta de diseño para Maggi, snack de arroz inflado sazonado y packaging. #ValentinaMorales. ",
 }, {
-    figure: "media/jeje.jpg",
-    title: "platónico de valecita",
-    about: "lo cambio mañana",
+    figure: "media/mochila.jpeg",
+    title: "Mochila",
+    about: "Examen del Volumen al plano textil, uso de moldaje, materiales impermeables, distintos tipos de costuras, bolsillos y cierres. #ValentinaMorales.",
 
 }
 ]

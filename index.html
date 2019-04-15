@@ -1,37 +1,35 @@
 <!DOCTYPE HTML>
 <html lang="es">
-
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Díaz&Morales</title>
-    <meta name="title" content="Díaz&Morales">
-    <link rel="icon" type="image/png" href="media/logo.png" />
-    <!-- Metadatos Genéricos -->
-    <meta name="description" content="Portafolio Díaz & Morales">
-    <meta name="image" content="https://static2.lasprovincias.es/www/multimedia/201706/25/media/cortadas/gato-kngE-U4015529328506D-624x385@Las%20Provincias.jpg">
-    <!-- Metadatos para Schema.org for Google -->
-    <meta itemprop="name" content="Díaz&Morales">
-    <meta itemprop="description" content="Portafolio Díaz & Morales">
-    <meta itemprop="image" content="https://static2.lasprovincias.es/www/multimedia/201706/25/media/cortadas/gato-kngE-U4015529328506D-624x385@Las%20Provincias.jpg">
-    <!-- Metadatos para Twitter -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Díaz&Morales">
-    <meta name="twitter:description" content="Portafolio Díaz & Morales">
-    <meta name="twitter:image" content="https://static2.lasprovincias.es/www/multimedia/201706/25/media/cortadas/gato-kngE-U4015529328506D-624x385@Las%20Provincias.jpg">
-    <!-- Metadatos para Open Graph general (Facebook y Pinterest) -->
-    <meta name="og:title" content="Díaz&Morales">
-    <meta name="og:description" content="Portafolio Díaz & Morales">
-    <meta name="og:image" content="https://static2.lasprovincias.es/www/multimedia/201706/25/media/cortadas/gato-kngE-U4015529328506D-624x385@Las%20Provincias.jpg">
-    <meta name="og:locale" content="es_CL">
-    <meta name="og:type" content="website">
-    <!-- Ahora vinculamos el estilo -->
-    <link rel="stylesheet" href="estilo.css" type="text/css">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Díaz&Morales</title>
+  <meta name="title" content="Díaz&Morales">
+  <link rel="icon" type="image/png" href="media/logo.png" />
+  <!-- Metadatos Genéricos -->
+  <meta name="description" content="Portafolio Díaz & Morales">
+  <meta name="image" content="url(media/Ambas.jpeg)">
+  <!-- Metadatos para Schema.org for Google -->
+  <meta itemprop="name" content="Díaz&Morales">
+  <meta itemprop="description" content="Portafolio Díaz & Morales">
+  <meta itemprop="image" content="url(media/Ambas.jpeg)">
+  <!-- Metadatos para Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Díaz&Morales">
+  <meta name="twitter:description" content="Portafolio Díaz & Morales">
+  <meta name="twitter:image" content="url(media/Ambas.jpeg)">
+  <!-- Metadatos para Open Graph general (Facebook y Pinterest) -->
+  <meta name="og:title" content="Díaz&Morales">
+  <meta name="og:description" content="Portafolio Díaz & Morales">
+  <meta name="og:image" content="url(media/Ambas.jpeg)">
+  <meta name="og:locale" content="es_CL">
+  <meta name="og:type" content="website">
+  <!-- Ahora vinculamos el estilo -->
+  <link rel="stylesheet" href="estilo.css" type="text/css">
 </head>
-
 <body>
-  <div id="contenido">
+  <div id="contenido" class="body">
     <header>
       <h1>Díaz<strong style="color: rgb(218,57,31);">&</strong>Morales</h1>
       <div class="container">
@@ -39,11 +37,11 @@
       </div>
     </header>
     <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-      <source src="media/video.mp4" type="video/mp4">
+      <source src="media/martin-mancha.mp4" type="video/mp4">
         <source src="media/video.ogg" type="video/ogg"><!---> cambiar esta wea pls-->
         </video>
-        <h3>¿QUIÉNES SOMOS?</h3>
-        <div id="somos" class="row">
+            <A name="Primero"></A><h3>¿QUIÉNES SOMOS?</h3>
+              <div id="somos" class="row">
           <div class="col-lg-2"></div>
           <div class="col-lg-3">
             <div class="dupla primera">
@@ -59,33 +57,40 @@
               <h4>Andrea Díaz V.</h4>
               <h5>Estudiante de Diseño UC</h5>
               <p>Manejo de Photoshop,
-                Illustrator,
-                After Effects, Premiere, conocimiento en área Audiovisual e Ilustración</p>
-              <address><a href="mailto:abdiaz1@uc.cl"><strong style="color:#ff7539);">Contáctame a: abdiaz1@uc.cl</strong></a></address>
-          </div>
-        </div>
-        <div class="col-lg-2"></div>
-        <hr />
-      </div><!-- acá cerramos el div id="somos"-->
-      <h3>PORTAFOLIO</h3>
-      <div id="portafolio"><!--acá se colocan y organizan las cosas con programación-->
-      </div><!-- acá cerramos el div id="portafolio"-->
-      <footer>
-        <p>CREATIVIDAD · PASIÓN · GATOS · SANTIAGO, CHILE</p>
-      </footer>
-    </div><!-- acá abajo cerramos el div id="contenido"-->
-    <!-- Lo que sigue SI es PROGRAMACIÓN -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
-    <script>
-    // ESTO SIRVE PARA ARREGLAR CADA ÍTEM DEL PORTAFOLIO COMO ALBAÑILERÍA (MASONRY)
-    window.onload = function() {
-      var container = document.querySelector('#portafolio');
-      var msnry = new Masonry(portafolio, {
-        itemSelector: '.item'
-      });
-    };
-  </script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="portafolio.js"></script>
-</body>
-</html>
+                Illustrator, After Effects, Premiere, conocimiento en área Audiovisual e Ilustración</p>
+                <A name="Tercero"></A><address><a href="mailto:abdiaz1@uc.cl"><strong style="color:#ff7539);">Contáctame a: abdiaz1@uc.cl</strong></a></address>
+              </div>
+            </div>
+            <div class="col-lg-2"></div>
+            <hr />
+          </div><!-- acá cerramos el div id="somos"-->
+          <A name="Segundo"></A><h3>PORTAFOLIO</h3>
+          <div id="portafolio"><!--acá se colocan y organizan las cosas con programación-->
+          </div><!-- acá cerramos el div id="portafolio"-->
+          <footer>
+            <div class="panel">
+              <p>CREATIVIDAD · PASIÓN · GATOS · SANTIAGO, CHILE</p>
+            </div>
+          </footer>
+          <div class="back"></div>
+          <nav>
+            <a href="#Primero">Sobre Nosotras</a>
+            <a href="#Segundo">Portafolio</a>
+            <a href="#Tercero">Contactos</a>
+          </nav>
+        </div><!-- acá abajo cerramos el div id="contenido"-->
+        <!-- Lo que sigue SI es PROGRAMACIÓN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
+        <script>
+        // ESTO SIRVE PARA ARREGLAR CADA ÍTEM DEL PORTAFOLIO COMO ALBAÑILERÍA (MASONRY)
+        window.onload = function() {
+          var container = document.querySelector('#portafolio');
+          var msnry = new Masonry(portafolio, {
+            itemSelector: '.item'
+          });
+        };
+      </script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="portafolio.js"></script>
+    </body>
+    </html>
